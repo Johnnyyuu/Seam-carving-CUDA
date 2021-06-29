@@ -1,0 +1,2 @@
+D:\UofT\ECE1782\Project\test\x64\Debug\test.exe
+D:\UofT\ECE1782\Project\test\x64\Debug\test.pdb

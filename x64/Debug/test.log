@@ -1,0 +1,48 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\UofT\ECE1782\Project\test>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\VS2019\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "D:\UofT\ECE1782\Project\test\kernel.cu" 
+D:\OpenCv\opencv\build\include\opencv2/stitching/detail/warpers.hpp(213): warning : overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+  
+D:\OpenCv\opencv\build\include\opencv2/stitching/detail/warpers.hpp(213): warning : overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+  
+D:\OpenCv\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+  
+D:\OpenCv\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+  
+D:\OpenCv\opencv\build\include\opencv2/stitching/detail/warpers.hpp(213): warning : overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+  
+D:\OpenCv\opencv\build\include\opencv2/stitching/detail/warpers.hpp(213): warning : overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+  
+D:\OpenCv\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+  
+D:\OpenCv\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+  
+  kernel.cu
+D:/UofT/ECE1782/Project/test/kernel.cu(31): warning C4244: '=': conversion from 'time_t' to 'long', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(269): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(270): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(276): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(277): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(283): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(289): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(290): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(309): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(329): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(358): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(359): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(360): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(361): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(384): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(385): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(397): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(398): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(407): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(408): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(427): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(532): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(654): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(691): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(693): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(738): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:/UofT/ECE1782/Project/test/kernel.cu(739): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  test.vcxproj -> D:\UofT\ECE1782\Project\test\x64\Debug\test.exe
